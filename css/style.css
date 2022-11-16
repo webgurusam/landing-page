@@ -2,6 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: 'Poppins', sans-serif;
+    background-color: #FEFBFB;
 }
 
 a {
@@ -26,6 +27,10 @@ p {
 
 .pad-x-150 {
     padding: 0 150px;
+}
+
+.pad-x-250 {
+    padding: 0 250px;
 }
 
 .mb-130 {
@@ -90,5 +95,46 @@ img {
 .shopping-link {
     color: #C42332;
     font-weight: bold;
+    font-size: 16px;
+}
+
+.accessory-item {
+    box-shadow: 0 0 10px #80808040;
+    border-radius: 20px;
+    padding: 25px;
+    margin: 0 25px 25px 0;
+}
+
+.last-item {
+    margin-right: 0;
+}
+
+.bottom-0 {
+    margin-bottom: 0;
+}
+
+.accessory-thumbnail {
+    width: 60%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.accessory-item h4 {
+    margin: 0;
+}
+
+.accessory-item p {
+    font-size: 14px;
+    margin: 7px 0;
+}
+
+.love-link {
+    float: right;
+    margin: 0 -25px -25px;
+    border-radius: 16px 0;
+    padding: 10px 14px;
+    background-color: #DA2535;
+    color: #fff;
     font-size: 16px;
 }
