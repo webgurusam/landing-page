@@ -45,6 +45,10 @@ p {
     margin-bottom: 80px;
 }
 
+.mb-30 {
+    margin-bottom: 30px;
+}
+
 img {
     width: 100%;
 }
@@ -55,6 +59,29 @@ img {
 
 .half-width {
     width: 50%;
+}
+
+.logo h4 a {
+    color: #000000;
+}
+
+.navbar {
+    margin-top: 4px;
+    margin-left: 23.5em;
+}
+
+.navbar ul {
+    display: flex;
+}
+
+.navbar ul li {
+    list-style: none;
+    margin-right: 40px;
+}
+
+.navbar ul li a {
+    font-weight: 700;
+    color: #000000;
 }
 
 .send-gift p {
@@ -101,7 +128,7 @@ img {
 }
 
 .shopping-link {
-    color: #C42332;
+    color: #DF4754;
     font-weight: bold;
     font-size: 16px;
 }
